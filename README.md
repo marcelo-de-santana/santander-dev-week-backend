@@ -1,7 +1,7 @@
 # santander-dev-week-backend
 Java RESTful API 
 
-##Diagrama de Classes
+## Diagrama de Classes
 
 ```mermaid
 classDiagram
@@ -38,3 +38,6 @@ User "1" *-- "n" Feature
 User "1" *-- "1" Card
 User "1" *-- "n" News
 ```
+
+## Utilizando API
+    http://localhost:8080/swagger-ui/index.html
